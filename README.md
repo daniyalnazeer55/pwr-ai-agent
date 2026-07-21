@@ -291,16 +291,6 @@ A specialized AI agent for Pressurized Water Reactor technical support
 https://github.com/yourusername/pwr-ai-agent
 ```
 
-## Contact
-
-For questions or issues, please open a GitHub issue or contact the project maintainers.
-
-## Acknowledgments
-
-- Built with LangChain and LangGraph
-- Powered by Groq and Llama 3.1
-- Vector embeddings by Hugging Face
-- Web search by DuckDuckGo
 
 ## Disclaimer
 
