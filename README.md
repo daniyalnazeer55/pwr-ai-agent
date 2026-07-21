@@ -1,6 +1,6 @@
 # PWR AI Research Assistant
 
-An advanced AI-powered research assistant specialized in Pressurized Water Reactors (PWRs). This agent combines domain-specific knowledge, live web search, and engineering calculations to provide accurate technical support for reactor analysis, safety assessment, and nuclear systems research.
+An AI-powered research assistant specialized in Pressurized Water Reactors (PWRs). This agent combines domain-specific knowledge, live web search, and engineering calculations to provide accurate technical support for reactor analysis, safety assessment, and nuclear systems research.
 
 ## Overview
 
@@ -75,7 +75,7 @@ export GROQ_API_KEY="your-api-key-here"
 python app.py
 ```
 
-3. Open your browser to the Gradio interface URL (usually http://127.0.0.1:7860)
+3. Open your browser to the Gradio interface URL
 
 4. Ask your PWR-related questions and the agent will respond with evidence-based answers
 
@@ -158,7 +158,7 @@ The agent follows strict guidelines for tool selection:
 1. Prepare PDF files with PWR technical content
 2. Place them in the project root directory
 3. Ensure files match the expected names or modify the `build_or_load_vector_db()` function
-4. Delete existing `./pwr_vector_db` directory if you want to rebuild the database
+4. Delete the existing `./pwr_vector_db` directory if you want to rebuild the database
 5. Run the application to rebuild the vector store
 
 ## File Structure
@@ -206,11 +206,11 @@ The agent follows strict response standards:
 1. Uses precise nuclear engineering terminology
 2. Never fabricates technical specifications or numerical values
 3. Clearly states when information is unavailable
-4. References document sources when using knowledge base
+4. References document sources when using the knowledge base
 5. Shows methodology and equations for all calculations
 6. Distinguishes between retrieved information and explanatory reasoning
 7. Synthesizes multiple sources into coherent answers
-8. Maintains objective, evidence-based tone for safety discussions
+8. Maintains an objective, evidence-based tone for safety discussions
 9. Asks clarifying questions when queries are ambiguous
 
 ## Error Handling
@@ -288,7 +288,7 @@ If you use this project in research, please cite:
 ```
 PWR AI Research Assistant
 A specialized AI agent for Pressurized Water Reactor technical support
-https://github.com/yourusername/pwr-ai-agent
+https://github.com/daniyalnazeer55/pwr-ai-agent
 ```
 
 
