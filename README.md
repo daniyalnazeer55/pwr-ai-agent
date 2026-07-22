@@ -42,7 +42,7 @@ The agent is built with a multi-component architecture:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pwr-ai-agent.git
+git clone https://github.com/daniyalnazeer55/pwr-ai-agent.git
 cd pwr-ai-agent
 ```
 
@@ -161,7 +161,7 @@ The agent follows strict guidelines for tool selection:
 4. Delete the existing `./pwr_vector_db` directory if you want to rebuild the database
 5. Run the application to rebuild the vector store
 
-## File Structure
+## Recommended File Structure
 
 ```
 pwr-ai-agent/
